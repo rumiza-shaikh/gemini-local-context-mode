@@ -137,6 +137,13 @@ else:
 
     st.markdown('</div>', unsafe_allow_html=True)
 
+st.markdown(
+    "💬 **Have 30 seconds?** "
+    "[Give quick feedback](https://docs.google.com/forms/d/e/1FAIpQLSe_M7GyFxxvy6xmJu7tZxkqBMmwJ9tgHYL7VmEsLjBF-FBUHQ/viewform) — clarity, usefulness, and what’s missing.",
+    help="Helps prioritize what to add next."
+)
+
+
 # ---------------- Footer ----------------
 st.write('')
 with st.expander('About this prototype'):
