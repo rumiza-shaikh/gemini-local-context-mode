@@ -24,3 +24,8 @@ A **language translator** converts the *same* meaning from Language A → Langua
 
 💡 One-liner: *Translate changes the words. Local Context Mode changes the world around those words so it feels like it was written for you.*
 
+<p align="center">
+  <img src="assets/demo.gif" width="900"
+       alt="Gemini Local Context Mode demo: Global → India → Brazil → Japan" />
+</p>
+
