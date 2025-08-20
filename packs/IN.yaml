@@ -1,0 +1,41 @@
+country: IN
+version: 0.3.0
+updated_at: "2025-08-12T00:00:00Z"
+
+currency: INR
+units: metric
+tone: "neutral, concise; Hinglish allowed sparingly"
+platform_examples: ["Swiggy", "Zomato"]
+payments:
+  primary: "UPI"
+  alternates: ["Card", "Netbanking"]
+
+regulatory_refs:
+  - name: FSSAI Licensing
+    scope: "food businesses"
+    url: "https://foscos.fssai.gov.in/"
+    disclaimer: "summary only; requirements vary by state/city"
+  - name: GST Registration
+    scope: "turnover thresholds"
+    url: "https://www.gst.gov.in/"
+    disclaimer: "rules change; check official portal"
+
+freshness:
+  watchers: ["https://fssai.gov.in", "https://www.gst.gov.in/"]
+  sla_days: 14
+
+rewrite_rules:
+  - intent: start_bakery
+    summary:
+      - "Choose structure (Proprietorship/LLP/Pvt Ltd) and register"
+      - "Apply for FSSAI (Basic/State/Central) per scale; Shop & Establishment"
+      - "GST if threshold; hygiene per Schedule 4"
+      - "₹3–6 lakh starter range; UPI-ready POS"
+    notes:
+      - "Summary only; not legal advice"
+    examples:
+      - "Source flour from local mill; delivery via Swiggy/Zomato"
+
+guardrails:
+  must_include: ["disclaimer", "currency_symbol"]
+  forbidden_claims: ["legal advice", "guaranteed approval"]
