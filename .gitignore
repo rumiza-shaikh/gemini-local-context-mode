@@ -1,1 +1,9 @@
+# runtime logs / env
+data/metrics.jsonl
+.env
+
+# python / streamlit
+__pycache__/
+*.pyc
+.streamlit/
 
