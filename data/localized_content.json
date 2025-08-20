@@ -1,181 +1,156 @@
 {
-  "meta": {
-    "disclaimer": "This is a product concept prototype. Regulatory notes are simplified and for demo only."
-  },
+  "updated_at": "2025-08-10T00:00:00Z",
   "queries": {
     "how to start a small bakery": {
+      "updated_at": "2025-08-12T00:00:00Z",
       "Global": {
-        "title": "How to start a small bakery",
+        "title": "Start a small bakery (global overview)",
         "summary": [
-          "Define your concept (artisan breads, cakes, or quick-serve).",
-          "Create a simple business plan covering startup costs, pricing, and break-even.",
-          "Find a compliant commercial kitchen and set up sourcing and logistics.",
-          "Register your business, get food-safety approvals, set up basic accounting.",
-          "Launch with a soft opening; collect feedback and iterate."
+          "Pick business structure; register your entity.",
+          "Obtain food-handling permits based on local law.",
+          "Estimate startup costs; lease, equipment, initial inventory.",
+          "Set up payments and hygiene SOPs."
         ],
-        "callouts": [
-          "Food safety",
-          "Business registration",
-          "Startup costs"
-        ]
+        "callouts": ["USD", "Food safety", "Permits"]
       },
       "India": {
-        "title": "छोटा बेकरी बिज़नेस कैसे शुरू करें (India)",
+        "title": "Start a bakery (India)",
+        "updated_at": "2025-08-12T00:00:00Z",
         "summary": [
-          "Business setup: Apply for Udyam MSME registration (optional but helpful); choose proprietorship/LLP/Private Limited as needed.",
-          "Licensing: FSSAI Basic/State license (based on revenue), local Shop & Establishment registration, NOC from municipality if applicable.",
-          "Compliance: GST registration if turnover crosses threshold; maintain hygiene per FSSAI Schedule 4.",
-          "Costs: ₹3–7L starter kit (used deck oven, mixer, racks), ₹50–80k working capital for first month.",
-          "Go-to-market: Partner with Swiggy/Zomato; sample at housing societies; Instagram reels in Hinglish."
+          "Choose structure (Proprietorship/LLP/Pvt Ltd) and register.",
+          "Apply for FSSAI (Basic/State/Central) per scale; Shop & Establishment permit.",
+          "GST registration if turnover crosses threshold; maintain hygiene per Schedule 4.",
+          "Starter cost range ₹3–6 lakh with used equipment; UPI-friendly POS."
         ],
-        "callouts": [
-          "FSSAI",
-          "GST threshold",
-          "Udyam"
-        ],
-        "currency_note": "All costs in INR (₹). Demo estimates."
+        "currency_note": "Costs shown in INR (₹).",
+        "callouts": ["₹ INR", "FSSAI", "GST"],
+        "regulatory_refs": [
+          {
+            "name": "FSSAI Licensing",
+            "url": "https://foscos.fssai.gov.in/",
+            "disclaimer": "Summary only; requirements vary by state/city."
+          },
+          {
+            "name": "GST Registration",
+            "url": "https://www.gst.gov.in/",
+            "disclaimer": "Thresholds and rules change; check the official portal."
+          }
+        ]
       },
       "Brazil": {
-        "title": "Como abrir uma pequena padaria (Brasil)",
+        "title": "Abrir uma padaria (Brasil)",
+        "updated_at": "2025-08-11T00:00:00Z",
         "summary": [
-          "Formalização: Abra CNPJ e opte por Simples Nacional se elegível; cadastro municipal.",
-          "Sanitário: ANVISA/​Vigilância Sanitária local; alvará de funcionamento e inspeção.",
-          "Tributos: ISS/ICMS conforme município/estado; escrituração simples com contador.",
-          "Custos: R$20–45 mil para equipamentos básicos usados; capital de giro 1–2 meses.",
-          "Lançamento: Parcerias com iFood/Rappi; promoções matinais (pão francês + café)."
+          "Registre CNPJ e escolha regime tributário (MEI/Simple/Real).",
+          "Licença sanitária via Vigilância Sanitária; normas da ANVISA.",
+          "Emita Nota Fiscal; ofereça Pix na frente para confiança.",
+          "Custos iniciais típicos em R$ (equipamentos usados reduzem CAPEX)."
         ],
-        "callouts": [
-          "CNPJ",
-          "Simples Nacional",
-          "Vigilância Sanitária"
-        ],
-        "currency_note": "Custos em BRL (R$). Estimativas de demo."
+        "currency_note": "Custos em BRL (R$).",
+        "callouts": ["R$ BRL", "CNPJ", "ANVISA", "Pix"],
+        "regulatory_refs": [
+          {
+            "name": "ANVISA – Resoluções Sanitárias",
+            "url": "https://www.gov.br/anvisa/",
+            "disclaimer": "Resumo informativo; confirme regras municipais."
+          }
+        ]
       },
       "Japan": {
-        "title": "小規模ベーカリーの始め方（日本）",
+        "title": "ベーカリーの開業（日本）",
+        "updated_at": "2025-08-09T00:00:00Z",
         "summary": [
-          "法人形態: 合同会社（GK）または株式会社（KK）を検討。個人事業も可。",
-          "届出: 食品衛生責任者の設置、保健所への営業許可申請（施設基準あり）。",
-          "衛生: 食品衛生法に基づく設備・動線・温度管理の記録を整備。",
-          "コスト: 中古オーブン/ミキサー等で¥800k–¥1.8M目安、家賃はエリア依存。",
-          "販売: テイクアウト中心で開始、近隣オフィス向けのランチ便、Line公式で予約。"
+          "所轄の保健所で許可（食品衛生責任者・施設基準）。",
+          "価格は¥、サイズ表記はmmで統一。キャッシュレスは交通系/カード併用。",
+          "立地と衛生計画（HACCP簡易手順）を準備。"
         ],
-        "callouts": [
-          "保健所許可",
-          "食品衛生法",
-          "衛生管理"
-        ],
-        "currency_note": "費用はJPY（¥）で概算。デモ用。"
+        "currency_note": "費用は概算・JPY（¥）。",
+        "callouts": ["¥ JPY", "保健所許可", "mm単位"],
+        "regulatory_refs": [
+          {
+            "name": "保健所（食品営業許可）",
+            "url": "https://www.mhlw.go.jp/",
+            "disclaimer": "要件は自治体で異なります。最新情報は公的サイトを確認。"
+          }
+        ]
       }
     },
+
     "how to open a student savings account": {
       "Global": {
-        "title": "How to open a student savings account",
+        "title": "Open a student savings account (global overview)",
         "summary": [
-          "Pick a bank with fee waivers for students and a solid mobile app.",
-          "Bring ID, proof of address, and student proof; book an appointment if required.",
-          "Enable online banking and set alerts; start an auto‑transfer for savings."
+          "Prepare ID, proof of address, and student status.",
+          "Compare minimum balance, fees, and digital apps."
         ],
-        "callouts": [
-          "KYC",
-          "Fee waivers",
-          "Mobile banking"
-        ]
+        "callouts": ["ID", "Fees"]
       },
       "India": {
-        "title": "स्टूडेंट सेविंग्स अकाउंट कैसे खोलें (India)",
+        "title": "学生向け普通預金（インド）",
+        "updated_at": "2025-08-12T00:00:00Z",
         "summary": [
-          "Documentation: Aadhaar, PAN (or Form 60), student ID/admission letter, address proof.",
-          "Account: Youth/Student variants often waive AMB and debit card fees; UPI-enabled.",
-          "Tip: Set ₹1,000 monthly auto‑sweep; enable UPI Lite for small payments."
+          "必要書類：Aadhaar/パスポート、住所証明、学生証。",
+          "UPI対応の口座・手数料無料枠を優先。"
         ],
-        "callouts": [
-          "KYC",
-          "UPI",
-          "AMB waiver"
-        ],
-        "currency_note": "Balances in INR (₹)."
+        "currency_note": "手数料の表記は₹。",
+        "callouts": ["₹", "UPI"],
+        "regulatory_refs": [
+          {
+            "name": "RBI – KYC ガイドライン",
+            "url": "https://rbi.org.in/",
+            "disclaimer": "要約です。金融助言ではありません。"
+          }
+        ]
       },
       "Brazil": {
-        "title": "Como abrir conta poupança estudantil (Brasil)",
+        "title": "Conta universitária (Brasil)",
         "summary": [
-          "Docs: RG/CPF, comprovante de residência, comprovante de matrícula.",
-          "Taxas: Muitos bancos isentam tarifas para estudantes; app é essencial.",
-          "Dica: Configure transferência automática mensal; monitore metas no app."
+          "Documentos: RG/CPF, comprovante de endereço, matrícula.",
+          "Busque isenção de tarifas e Pix ilimitado."
         ],
-        "callouts": [
-          "CPF",
-          "Isenção de tarifas",
-          "App bancário"
-        ]
+        "callouts": ["R$ BRL", "Pix"]
       },
       "Japan": {
-        "title": "学生向け普通預金口座の開設（日本）",
+        "title": "学生口座（日本）",
         "summary": [
-          "必要書類: 本人確認書類、在学証明、住所確認資料。",
-          "手数料: 学生向け優遇（ATM・振込手数料割引など）を確認。",
-          "Tips: 通知設定・貯蓄用サブ口座を作り、自動振替で貯蓄習慣化。"
+          "必要書類：本人確認、住所、在学証明。",
+          "ATM手数料の無料時間帯とアプリ連携を確認。"
         ],
-        "callouts": [
-          "本人確認",
-          "学生優遇",
-          "自動振替"
-        ]
+        "callouts": ["¥ JPY"]
       }
     },
+
     "how to register an e-commerce business": {
       "Global": {
-        "title": "How to register an e‑commerce business",
+        "title": "Register an e-commerce business (global overview)",
         "summary": [
-          "Choose a structure (sole proprietor vs company) and check name availability.",
-          "Register for taxes, set up a business bank account, and pick a payment gateway.",
-          "Write a privacy policy, returns policy, and terms; set up analytics."
-        ],
-        "callouts": [
-          "Company setup",
-          "Tax ID",
-          "Policies"
+          "Pick structure; register; set up tax IDs.",
+          "Privacy, returns, and payment compliance vary by market."
         ]
       },
       "India": {
-        "title": "ई‑कॉमर्स बिज़नेस रजिस्टर कैसे करें (India)",
+        "title": "Eコマース事業の登録（インド）",
         "summary": [
-          "Entity: Proprietorship/LLP/Private Ltd; apply for PAN for the entity as needed.",
-          "Tax: GST registration if threshold met or for inter‑state sales/marketplaces.",
-          "Policies: Returns, privacy (DPDP Act alignment), grievance redressal contact.",
-          "Marketplaces: ONDC/Amazon/Flipkart compliance; invoice with GSTIN."
+          "Udyam（中小）任意、PAN/TAN、必要に応じてGST。",
+          "DPDPに沿ったプライバシー表記・返品方針。"
         ],
-        "callouts": [
-          "GST",
-          "DPDP (privacy)",
-          "Marketplace rules"
-        ]
+        "callouts": ["GST", "DPDP"]
       },
       "Brazil": {
-        "title": "Como registrar um negócio de e‑commerce (Brasil)",
+        "title": "Registrar e-commerce (Brasil)",
         "summary": [
-          "Estrutura: MEI/ME ou LTDA; abra CNPJ.",
-          "Fiscal: Emissão de nota fiscal eletrônica (NF‑e); escolha regime (Simples, etc.).",
-          "Políticas: Devolução (CDC), privacidade (LGPD), SAC e prazos claros."
+          "CNPJ, inscrição estadual/municipal conforme operação.",
+          "LGPD準拠のプライバシー告知、NF-e発行の準備。"
         ],
-        "callouts": [
-          "CNPJ",
-          "NF‑e",
-          "LGPD"
-        ]
+        "callouts": ["CNPJ", "LGPD", "NF-e"]
       },
       "Japan": {
-        "title": "EC事業の登録方法（日本）",
+        "title": "EC事業の届出（日本）",
         "summary": [
-          "形態: 個人事業 or 法人（GK/KK）。屋号・商号の確認。",
-          "税務: 開業届、消費税の取り扱い確認、インボイス制度対応。",
-          "規程: 返品・特商法表記・プライバシーポリシー（個人情報保護法）。"
+          "特定商取引法に基づく表示、インボイス制度対応。",
+          "個人情報保護法に沿ったプライバシー表記。"
         ],
-        "callouts": [
-          "特商法",
-          "インボイス",
-          "個人情報保護法"
-        ]
+        "callouts": ["特商法", "インボイス", "個人情報保護法"]
       }
     }
   }
