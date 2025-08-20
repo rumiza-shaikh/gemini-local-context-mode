@@ -1,4 +1,4 @@
 country,predicted_ctr_lift_pct,notes
-India,22,Mocked estimate based on localization uplift studies
-Brazil,28,Mocked estimate; contrasts with baseline English output
-Japan,12,Mocked estimate; trust gains from localized compliance cues
+India,28,Model: +28% CTR (mock)
+Brazil,22,Model: +22% CTR (mock)
+Japan,15,Model: +15% CTR (mock)
