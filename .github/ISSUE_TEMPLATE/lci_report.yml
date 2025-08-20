@@ -1,0 +1,30 @@
+name: Local Context Issue
+description: Report a problem with localized content (facts, freshness, sources)
+title: "[LCI] <short summary>"
+labels: ["lci", "content"]
+body:
+  - type: input
+    id: market
+    attributes:
+      label: Market / Country
+      placeholder: "IN / BR / JP"
+  - type: input
+    id: intent
+    attributes:
+      label: Intent / Query
+      placeholder: "start_bakery / open_student_account / ..."
+  - type: textarea
+    id: issue
+    attributes:
+      label: What’s wrong?
+      description: What appears incorrect, missing, or stale?
+  - type: input
+    id: source
+    attributes:
+      label: Official source link (if any)
+      placeholder: "https://..."
+  - type: input
+    id: date
+    attributes:
+      label: Observed on (date)
+      placeholder: "YYYY-MM-DD"
