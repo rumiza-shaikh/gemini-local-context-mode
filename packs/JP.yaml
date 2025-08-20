@@ -1,0 +1,34 @@
+country: JP
+version: 0.3.0
+updated_at: "2025-08-09T00:00:00Z"
+
+currency: JPY
+units: metric
+tone: "polite, concise"
+platform_examples: ["LINE", "Rakuten"]
+payments:
+  primary: "Card"
+  alternates: ["Transit IC", "Mobile wallet"]
+
+regulatory_refs:
+  - name: 保健所（食品営業許可）
+    scope: "food business permits"
+    url: "https://www.mhlw.go.jp/"
+    disclaimer: "自治体ごとに要件が異なるため公式情報を確認してください"
+
+freshness:
+  watchers: ["https://www.mhlw.go.jp/"]
+  sla_days: 30
+
+rewrite_rules:
+  - intent: start_bakery
+    summary:
+      - "所轄の保健所で許可（食品衛生責任者・施設基準）"
+      - "価格は¥、サイズはmm表記"
+      - "HACCP簡易手順を整備"
+    notes:
+      - "法的助言ではありません"
+
+guardrails:
+  must_include: ["disclaimer", "currency_symbol"]
+  forbidden_claims: ["法的助言", "保証"]
