@@ -1,0 +1,35 @@
+country: BR
+version: 0.3.0
+updated_at: "2025-08-11T00:00:00Z"
+
+currency: BRL
+units: metric
+tone: "concise, Brazilian Portuguese"
+platform_examples: ["iFood", "Mercado Pago"]
+payments:
+  primary: "Pix"
+  alternates: ["Card", "Boleto"]
+
+regulatory_refs:
+  - name: ANVISA
+    scope: "food safety"
+    url: "https://www.gov.br/anvisa/"
+    disclaimer: "resumo informativo; confirme regras municipais"
+
+freshness:
+  watchers: ["https://www.gov.br/anvisa/"]
+  sla_days: 21
+
+rewrite_rules:
+  - intent: start_bakery
+    summary:
+      - "Obter CNPJ e regime (MEI/Simples/Real)"
+      - "Licença sanitária (Vigilância Sanitária) conforme ANVISA"
+      - "NF-e e Pix como método principal"
+      - "Custos iniciais em R$"
+    notes:
+      - "Resumo; não é aconselhamento jurídico"
+
+guardrails:
+  must_include: ["disclaimer", "currency_symbol"]
+  forbidden_claims: ["garantido", "aconselhamento jurídico"]
