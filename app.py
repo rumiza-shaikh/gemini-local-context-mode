@@ -64,7 +64,7 @@ st.session_state.setdefault("prev_local_mode", None)
 # ---------------- Header ----------------
 st.markdown('# Local Context Intelligence')
 st.markdown(
-    'Turn on **Local Context Intelligence** to instantly adapt examples, metrics, currency, and regulations — '
+    'Turn on the **Local Context Mode** to instantly adapt examples, metrics, currency, and regulations — '
     '**no extra prompts**.'
 )
 
