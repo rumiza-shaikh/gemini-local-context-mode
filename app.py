@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 import streamlit as st
 
 # ---------------- Config & Paths ----------------
-st.set_page_config(page_title='Gemini Local Context Mode — Prototype', layout='wide')
+st.set_page_config(page_title='Local Context Intelligence — Prototype', layout='wide')
 
 ROOT = Path(__file__).parent
 DATA_PATH = ROOT / 'data' / 'localized_content.json'
