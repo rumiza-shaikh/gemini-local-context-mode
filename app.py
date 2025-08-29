@@ -69,7 +69,7 @@ st.markdown(
 )
 
 # 🔍 Make the translator vs localization difference explicit
-with st.expander("❓ Isn't this just Google Translate?", expanded=False):
+with st.expander("❓ Why not just Language Translation?", expanded=False):
     st.markdown(
         """
 **No.**  
