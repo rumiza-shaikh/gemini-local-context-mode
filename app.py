@@ -71,8 +71,7 @@ st.markdown(
 # 🔍 Make the translator vs localization difference explicit
 with st.expander("❓ Why not just Language Translation?", expanded=False):
     st.markdown(
-        """
-**No.**  
+        """  
 A **language translator** converts the *same* meaning from Language A → Language B.  
 - Example: “How to start a bakery” → “Cómo abrir una panadería” (same facts, different language).  
 - Goal: **Fidelity to original text**.
