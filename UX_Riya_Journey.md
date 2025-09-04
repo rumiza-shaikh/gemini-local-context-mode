@@ -51,6 +51,5 @@
 - **Perf:** Added latency ≤ **80ms P50 / 150ms P95**  
 - **Safety:** Summary-only compliance; ≥1 official link present when regulators are named
 
----
 
-## 7) Visual (optional)
+
