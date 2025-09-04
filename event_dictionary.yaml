@@ -1,0 +1,13 @@
+events:
+  answer_view: Fired when the eligible answer module renders
+  ctr_click: Click on expand/official link/copy within the answer
+  toggle_used: User toggled LCI ON/OFF (value: true/false)
+  country_selected: Market switch in UI (value: IN|BR|JP)
+  copy_clicked: Copy summary button clicked
+  scroll_depth: % of answer scrolled (0-100)
+  pogo: Returned to SERP within 10s after answer click-through
+  staleness_flag: Local pack exceeded SLA (value: days_since_update)
+  error_flag: User submitted “Report an issue”
+perf:
+  render_latency_ms_p50: Median added latency
+  render_latency_ms_p95: 95th percentile added latency
