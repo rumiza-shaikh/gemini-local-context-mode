@@ -27,6 +27,6 @@ A **language translator** converts the *same* meaning from Language A → Langua
 ![Demo](assets/demo.gif)
 
 
-
+**Week 2 (A/B Day 6)** — CTR: **21.4%** vs 20.0% control (**+7.0% rel, p=0.021**) • Bounce: **11.9%** vs 12.5% (**−4.8% rel**) • Scroll: **56.1%** vs 54.0% (**+3.9% rel**) • Toggle usage: **68%** of LCI sessions • Latency add: **P50 +38 ms / P95 +112 ms** (PASS) • Staleness: **0.8%** (PASS) • Error flags: **0.2%/h** (PASS) • N≈**85k** sessions/arm (IN 35k, BR 28k, JP 22k)
 
 
